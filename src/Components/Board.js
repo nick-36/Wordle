@@ -15,8 +15,6 @@ import { checkIsLetter, checkIsWord } from "../utils/validate";
 import words from "../utils/words";
 
 function Board() {
-  // const [solution, setSolution] = useState("");
-
   const { guesses, currentGuess, isGameOver, attempts, solution } = useSelector(
     (state) => state
   );
